@@ -1,0 +1,194 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Microsoft.Msagl/1.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Msagl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Msagl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Msagl.Drawing/1.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Msagl": "1.1.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Msagl.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Msagl.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Msagl.GraphViewerGDI/1.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Msagl.Drawing": "1.1.6"
+        },
+        "compile": {
+          "lib/net7.0-windows7.0/Microsoft.Msagl.GraphViewerGdi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Microsoft.Msagl.GraphViewerGdi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Msagl/1.1.6": {
+      "sha512": "Fqxj+pmZEo/H2z/LEMFSmtt6GrSj2FKZfz15HhTQRhYRpdewFaC5mPIUxkzELJTac/hbUDb28QBjG/w0JbG2wg==",
+      "type": "package",
+      "path": "microsoft.msagl/1.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Msagl.dll",
+        "lib/netstandard2.0/Microsoft.Msagl.xml",
+        "microsoft.msagl.1.1.6.nupkg.sha512",
+        "microsoft.msagl.nuspec"
+      ]
+    },
+    "Microsoft.Msagl.Drawing/1.1.6": {
+      "sha512": "xKEOHGDEzf1ulz7GISBxnjsqSl5+YhMhZ1I/UU7GMUkFtrwuShVg+irAZiZeK9VQRePXWeFWVhBlxrc3XulXNQ==",
+      "type": "package",
+      "path": "microsoft.msagl.drawing/1.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Msagl.Drawing.dll",
+        "lib/netstandard2.0/Microsoft.Msagl.Drawing.xml",
+        "microsoft.msagl.drawing.1.1.6.nupkg.sha512",
+        "microsoft.msagl.drawing.nuspec"
+      ]
+    },
+    "Microsoft.Msagl.GraphViewerGDI/1.1.7": {
+      "sha512": "av6SIZxaNILJ2r0ALvRBppOPYNCkGr2OQTx6XhwpB4rwrHtvKpcP5Olj9Qj4Yq6ijthKkmmkhHkDk6MHfpqbtA==",
+      "type": "package",
+      "path": "microsoft.msagl.graphviewergdi/1.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Microsoft.Msagl.GraphViewerGdi.dll",
+        "lib/net472/Microsoft.Msagl.GraphViewerGdi.xml",
+        "lib/net6.0-windows7.0/Microsoft.Msagl.GraphViewerGdi.dll",
+        "lib/net6.0-windows7.0/Microsoft.Msagl.GraphViewerGdi.xml",
+        "lib/net7.0-windows7.0/Microsoft.Msagl.GraphViewerGdi.dll",
+        "lib/net7.0-windows7.0/Microsoft.Msagl.GraphViewerGdi.xml",
+        "microsoft.msagl.graphviewergdi.1.1.7.nupkg.sha512",
+        "microsoft.msagl.graphviewergdi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Microsoft.Msagl >= 1.1.6",
+      "Microsoft.Msagl.Drawing >= 1.1.6",
+      "Microsoft.Msagl.GraphViewerGdi >= 1.1.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rober\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\rober\\source\\repos\\GrafoDFS\\GrafoDFS\\GrafoDFS.csproj",
+      "projectName": "GrafoDFS",
+      "projectPath": "C:\\Users\\rober\\source\\repos\\GrafoDFS\\GrafoDFS\\GrafoDFS.csproj",
+      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rober\\source\\repos\\GrafoDFS\\GrafoDFS\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Microsoft.Msagl": {
+            "target": "Package",
+            "version": "[1.1.6, )"
+          },
+          "Microsoft.Msagl.Drawing": {
+            "target": "Package",
+            "version": "[1.1.6, )"
+          },
+          "Microsoft.Msagl.GraphViewerGdi": {
+            "target": "Package",
+            "version": "[1.1.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
