@@ -51,6 +51,7 @@ namespace GrafoDFS.Program
                 Console.Write(no.LetterTitle + " ");
             }
             Console.WriteLine();
+            Console.WriteLine(grafo.ThreadsAtivadas);
 
 
 
@@ -61,7 +62,7 @@ namespace GrafoDFS.Program
                 Height = 300
             };
 
-            // === 3. Grafo com caminho DFS destacado ===
+            // === Grafo com caminho DFS destacado ===
             var viewerCaminho = new GViewer
             {
                 Graph = grafo.DesenharGrafo(grafo, listaDeNos),
